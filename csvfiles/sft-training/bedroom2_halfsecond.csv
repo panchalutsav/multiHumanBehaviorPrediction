@@ -1,0 +1,50 @@
+frame_index,Timestamp,frame_path,Action Label,rounded_timestamp
+0,0,bedroom2/0/Action_0000_0_normal.png,"(None, None)",0
+12,0.48,bedroom2/0/Action_0012_0_normal.png,"(None, None)",0.5
+26,1.04,bedroom2/0/Action_0026_0_normal.png,"(None, None)",1
+37,1.48,bedroom2/0/Action_0037_0_normal.png,"(female1, walk, bed)",1.5
+49,1.96,bedroom2/0/Action_0049_0_normal.png,"(female1, walk, bed)",2
+62,2.48,bedroom2/0/Action_0062_0_normal.png,"(female1, stand, coffeetable)",2.5
+74,2.96,bedroom2/0/Action_0074_0_normal.png,"(female1, grab, foodbox)",3
+87,3.48,bedroom2/0/Action_0087_0_normal.png,"(female1, grab, foodbox)",3.5
+99,3.96,bedroom2/0/Action_0099_0_normal.png,"(female1, walk, bed) (male1, walk, bed)",4
+112,4.48,bedroom2/0/Action_0112_0_normal.png,"(female1, stand, bed) (male1, walk, bed)",4.5
+124,4.96,bedroom2/0/Action_0124_0_normal.png,"(female1, stand, bed) (male1, walk, bed)",5
+137,5.48,bedroom2/0/Action_0137_0_normal.png,"(female1, stand, bed) (male1, grab, book)",5.5
+149,5.96,bedroom2/0/Action_0149_0_normal.png,"(female1, sit, bed) (male1, stand, bed)",6
+162,6.48,bedroom2/0/Action_0162_0_normal.png,"(female1, sit, bed) (male1, walk, bookshelf)",6.5
+174,6.96,bedroom2/0/Action_0174_0_normal.png,"(female1, sit, bed) (male1, walk, bookshelf)",7
+187,7.48,bedroom2/0/Action_0187_0_normal.png,"(female1, sit, bed) (male1, stand, bookshelf)",7.5
+199,7.96,bedroom2/0/Action_0199_0_normal.png,"(female1, sit, bed) (male1, put, book, bookshelf)",8
+212,8.48,bedroom2/0/Action_0212_0_normal.png,"(female1, sit, bed) (male1, stand, bookshelf)",8.5
+224,8.96,bedroom2/0/Action_0224_0_normal.png,"(female1, sit, bed) (male1, stand, bookshelf)",9
+237,9.48,bedroom2/0/Action_0237_0_normal.png,"(female1, sit, bed) (male1, walk, bed)",9.5
+249,9.96,bedroom2/0/Action_0249_0_normal.png,"(female1, sit, bed) (male1, stand, bed)",10
+262,10.48,bedroom2/0/Action_0262_0_normal.png,"(female1, sit, bed) (male1, grab, magazine)",10.5
+274,10.96,bedroom2/0/Action_0274_0_normal.png,"(female1, sit, bed) (male1, stand, bed)",11
+287,11.48,bedroom2/0/Action_0287_0_normal.png,"(female1, sit, bed) (male1, stand, bed)",11.5
+299,11.96,bedroom2/0/Action_0299_0_normal.png,"(female1, sit, bed) (male1, walk, boookshelf)",12
+312,12.48,bedroom2/0/Action_0312_0_normal.png,"(female1, sit, bed) (male1, stand, boookshelf)",12.5
+324,12.96,bedroom2/0/Action_0324_0_normal.png,"(female1, sit, bed) (male1, stand, boookshelf)",13
+337,13.48,bedroom2/0/Action_0337_0_normal.png,"(female1, sit, bed) (male1, stand, bookshelf)",13.5
+349,13.96,bedroom2/0/Action_0349_0_normal.png,"(female1, sit, bed) (male1, stand, bookshelf)",14
+362,14.48,bedroom2/0/Action_0362_0_normal.png,"(female1, sit, bed) (male1, walk, bed)",14.5
+374,14.96,bedroom2/0/Action_0374_0_normal.png,"(female1, sit, bed) (male1, walk, bed)",15
+387,15.48,bedroom2/0/Action_0387_0_normal.png,"(female1, sit, bed) (male1, stand, bed)",15.5
+399,15.96,bedroom2/0/Action_0399_0_normal.png,"(female1, sit, bed) (male1, grab, folder)",16
+412,16.48,bedroom2/0/Action_0412_0_normal.png,"(female1, sit, bed) (male1, stand, bed)",16.5
+424,16.96,bedroom2/0/Action_0424_0_normal.png,"(female1, sit, bed) (male1, walk, bookshelf)",17
+437,17.48,bedroom2/0/Action_0437_0_normal.png,"(female1, sit, bed) (male1, walk, bookshelf)",17.5
+449,17.96,bedroom2/0/Action_0449_0_normal.png,"(female1, sit, bed) (male1, stand, bookshelf)",18
+462,18.48,bedroom2/0/Action_0462_0_normal.png,"(female1, sit, bed) (male1, put, folder, bookshelf)",18.5
+474,18.96,bedroom2/0/Action_0474_0_normal.png,"(female1, sit, bed) (male1, stand, bookshelf)",19
+488,19.52,bedroom2/0/Action_0488_0_normal.png,"(female1, sit, bed) (male1, walk, bed)",19.5
+499,19.96,bedroom2/0/Action_0499_0_normal.png,"(female1, sit, bed) (male1, walk, bed)",20
+512,20.48,bedroom2/0/Action_0512_0_normal.png,"(female1, sit, bed) (male1, stand, bed)",20.5
+524,20.96,bedroom2/0/Action_0524_0_normal.png,"(female1, sit, bed) (male1, grab, journal)",21
+537,21.48,bedroom2/0/Action_0537_0_normal.png,"(female1, sit, bed) (male1, stand, bed)",21.5
+551,22.04,bedroom2/0/Action_0551_0_normal.png,"(female1, sit, bed) (male1, walk, bookshelf)",22
+562,22.48,bedroom2/0/Action_0562_0_normal.png,"(female1, sit, bed) (male1, walk, bookshelf)",22.5
+574,22.96,bedroom2/0/Action_0574_0_normal.png,"(female1, sit, bed) (male1, stand, bookshelf)",23
+587,23.48,bedroom2/0/Action_0587_0_normal.png,"(female1, sit, bed) (male1, stand, bookshelf)",23.5
+599,23.96,bedroom2/0/Action_0599_0_normal.png,"(female1, sit, bed) (male1, stand, bookshelf)",24

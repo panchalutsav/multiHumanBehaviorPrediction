@@ -1,0 +1,33 @@
+#!/bin/bash -l
+## Scheduler parameters ##
+  
+#BSUB -J qwen2bft-B  # Job name
+#BSUB -o outputs/0426/qwen2b-b2-inf.%J.stdout 
+#BSUB -e outputs/0426/qwen2b-b2-inf.%J.stderr 
+#BSUB -q batch_h100               # optional: use highend nodes w/ Volta GPUs (default: Geforce GPUs)
+#BSUB -W 5:00                       # fill in desired wallclock time [hours,]minutes (hours are optional)
+#BSUB -n 4                          # min CPU cores,max CPU cores (max cores is optional)
+#BSUB -M 16G                       # fill in required amount of memory per CPU core(in Mbyte)
+# #BSUB -R "span[hosts=1]"          # optional: run on single host (if using more than 1 CPU core)
+# #BSUB -R "span[ptile=28]"         # optional: fill in to specify cores per node (max 28-40 depending on node type)
+# #BSUB -P myProject                # optional: fill in cluster project
+#BSUB -gpu "num=2"
+  
+# Here comes your code
+HF_ACCESS_TOKEN="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"
+
+module load conda proxy4server-access
+source /fs/applications/p4s-access/2.0/ActivateP4S.sh -a
+# cd ~/projects/
+#conda create -n lta python=3.12 
+# conda create -n llava python=3.10 -y
+conda activate lta 
+#pip install bitsandbytes peft qwen-vl-utils wandb accelerate requests
+# pip install git+https://github.com/huggingface/trl.git
+#pip install --upgrade "trl==0.11.1"
+# bash hf_login.sh
+export HF_HOME="/fs/scratch/rb_bd_dlp_rng-dl01_cr_ROB_employees/students/pau1rng/huggingface"
+huggingface-cli login --token "$HF_ACCESS_TOKEN"
+wandb login 41bd6a3035f10a84948f54cf7ac6add18850c8c5
+python qwen2ft.py
+

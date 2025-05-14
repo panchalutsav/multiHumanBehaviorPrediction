@@ -1,0 +1,33 @@
+HF_HOME: "/fs/scratch/rb_bd_dlp_rng-dl01_cr_ROB_employees/students/pau1rng/huggingface"
+
+model_id: "Qwen/Qwen2-VL-72B-Instruct"
+PROJECT_NAME : "sft-test-1"
+SFT_OUTPUT_DIR: "/fs/scratch/rb_bd_dlp_rng-dl01_cr_ROB_employees/students/pau1rng/checkpoints/qwen-sftadapters-test1" # sft adapters will be stored and loaded from this dir
+DPO_ADAPTERS_DIR: "/fs/scratch/rb_bd_dlp_rng-dl01_cr_ROB_employees/students/pau1rng/checkpoints/qwen-dpoadapters-test1" # dpo adapters will be stored and loaded from this dir
+
+
+SFT_MODEL_DIR: "/fs/scratch/rb_bd_dlp_rng-dl01_cr_ROB_employees/students/pau1rng/checkpoints/qwen-sftmodel-test1" # sft model will be stored here
+
+histlen: 4  # 2sec
+futrlen: 4  # 2sec
+
+
+# data 
+imgbasepath: "/fs/scratch/rb_bd_dlp_rng-dl01_cr_ROB_employees/students/pau1rng/datasets/virtualhomedata"
+kitchen1_halfsecond: "/home/pau1rng/utsav/codes/multi-human-behavior-prediction/csvfiles/kitchen1_halfsecond.csv"
+kitchen2_halfsecond: "/home/pau1rng/utsav/codes/multi-human-behavior-prediction/csvfiles/kitchen2_halfsecond.csv"
+kitchen3_halfsecond: "/home/pau1rng/utsav/codes/multi-human-behavior-prediction/csvfiles/kitchen3_halfsecond.csv"
+
+# dpo preference data 
+PREFERENCE_DATA_DPO: "/home/pau1rng/utsav/codes/multi-human-behavior-prediction/csvfiles/kitchen1-chosen-0425.csv"
+
+EPISODES : 1 
+
+
+# infer output dirs 
+FT_OUTPUTS_DIR: "/home/pau1rng/utsav/codes/multi-human-behavior-prediction/ftoutputs" # inferencing results will be stored as csv file
+OUTPUTFILENAME: "Kitchen1-test-1405.csv" # name of csv file
+
+# hyperparams for inference 
+TEMPERATURE: 1.0 
+MAX_NEW_TOKENS: 512  

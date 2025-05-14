@@ -1,0 +1,6 @@
+epochs: 30 
+train_batch_size: 2
+lr: 3e-4 
+scheduler_type: 'constant'
+lora_alpha: 128 
+lora_rank: 64 
